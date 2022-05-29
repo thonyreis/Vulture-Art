@@ -78,7 +78,6 @@ body {
   font-family: 'Bebas Neue', cursive;
   font-weight: 400;
   font-size: 24px;
-  color: #3D3D3D;
   cursor:pointer;
 }
 
@@ -88,6 +87,7 @@ body {
 
 .conteudo-principal-escrito-botao-link {
   text-decoration: text-decoration;
+  color: #3D3D3D;
 }
 
 .conteudo-principal-imagem {
