@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Saira+Extra+Condensed:wght@100&display=swap');
+@import url('https://db.onlinewebfonts.com/c/36c06b5106bed2e2ef2d58902a4b7a31?family=Onyx');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #3D3D3D 16.62%, #646464 85.61%);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem{
+  height: 60px;
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 35px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top:0.4px solid #CACACA;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito { 
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Onyx';
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #CACACA;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: rgba( 255, 255, 255, 0.53);
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #3D3D3D;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: #8D8D8D ;
+}
+
+.conteudo-principal-escrito-botao-link {
+  text-decoration: text-decoration;
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 0.4px solid #CACACA;
+  padding-top: 48px;
+  font-family: 'Onyx';
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #CACACA;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #CACACA;
+}
+
+.rodape-imagem {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
