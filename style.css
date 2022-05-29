@@ -90,6 +90,11 @@ body {
   color: #3D3D3D;
 }
 
+.conteudo-principal-escrito-botao-link:visited {
+  text-decoration: none;
+  color: #3D3D3D;
+}
+
 .conteudo-principal-imagem {
   height: 430px;
 }
