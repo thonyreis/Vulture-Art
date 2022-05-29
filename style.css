@@ -38,7 +38,7 @@ body {
 }
 
 .conteudo {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
   border-top:0.4px solid #CACACA;
 }
 
@@ -52,7 +52,6 @@ body {
 .conteudo-principal-escrito { 
   display: flex;
   flex-direction: column;
-  gap: 32px;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -99,13 +98,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  margin-top: 48px;
+  margin-top: 30px;
 }
 
 .conteudo-secundario-titulo {
   border-top: 0.4px solid #CACACA;
-  padding-top: 48px;
+  padding-top: 20px;
   font-family: 'Onyx';
   color: #FFFFFF;
   font-weight: 300;
